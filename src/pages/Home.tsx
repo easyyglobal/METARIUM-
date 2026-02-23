@@ -30,7 +30,7 @@ export default function Home() {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-white/80 text-sm md:text-base font-light tracking-[0.3em] mb-6"
           >
-            JEJU SEOGWIPO RESORT
+            JEJU PREMIUM RESORT
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -95,9 +95,10 @@ export default function Home() {
             transition={{ delay: 0.5, duration: 1 }}
             className="text-lg md:text-xl text-primary/60 font-light leading-relaxed max-w-2xl mx-auto"
           >
-            메타리움은 제주의 원시적인 아름다움을 현대적인 감각으로 재해석한 공간입니다.
-            번잡한 일상에서 벗어나, 바람의 소리와 돌의 질감을 느끼며
-            당신만의 온전한 시간을 마주해 보세요.
+            아침에는 빛과 함께 바다가 들어오고 낮에는 제주의 색이 공간에 머물며 
+            해 질 무렵에는 노을이 하루의 끝을 알려줍니다. 
+            단순한 숙박이 아니라 머무는 시간 자체가 하나의 경험이 되는 것을 느껴보세요.
+
           </motion.p>
         </div>
       </section>
@@ -119,12 +120,12 @@ export default function Home() {
             {[
               {
                 title: "Type A - Minimal Suite",
-                desc: "여백의 미를 극대화한 미니멀한 스위트 룸",
+                desc: "휴식이 필요하다면, 프라이빗한 오션뷰 스위트 룸",
                 img: IMAGES.ROOM_TYPE_A_1
               },
               {
                 title: "Type B - Nature View",
-                desc: "제주의 숲을 온전히 담아낸 프라이빗 룸",
+                desc: "제주의 바다을 온전히 담아낸 프라이빗 룸",
                 img: IMAGES.ROOM_TYPE_B_1
               }
             ].map((room, idx) => (
@@ -234,7 +235,7 @@ export default function Home() {
               <span className="text-accent text-xs font-bold tracking-[0.4em] uppercase block">Location</span>
               <h2 className="text-4xl md:text-5xl font-bold tracking-tighter">오시는 길</h2>
               <div className="space-y-4 text-primary/70">
-                <p className="text-lg font-medium text-primary">제주특별자치도 서귀포시 어느 길 123</p>
+                <p className="text-lg font-medium text-primary">제주 서귀포시 중산간서로157번길 74</p>
                 <p className="text-sm leading-relaxed">
                   제주공항에서 차로 약 50분 소요됩니다.<br />
                   서귀포의 푸른 바다와 한라산의 정취를 동시에 느낄 수 있는<br />

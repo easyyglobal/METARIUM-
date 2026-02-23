@@ -87,7 +87,7 @@ export default function Guide() {
                 </div>
               </div>
               <div className="p-8 bg-secondary rounded-2xl space-y-4">
-                <p className="text-sm font-bold">주소: 제주특별자치도 서귀포시 어느 길 123</p>
+                <p className="text-sm font-bold">주소: 제주 서귀포시 중산간서로157번길 74</p>
                 <div className="space-y-2">
                   <p className="text-xs text-primary/50">버스 이용 시: 201번 버스 탑승 후 '메타리움 앞' 정류장 하차</p>
                   <p className="text-xs text-primary/50">택시 이용 시: 제주공항에서 약 50분 소요 (예상 요금 35,000원)</p>
