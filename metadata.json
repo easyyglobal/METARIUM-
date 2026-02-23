@@ -1,0 +1,7 @@
+{
+  "name": "메타리움 제주 (Metarium Jeju)",
+  "description": "제주 서귀포의 감성 리조트 메타리움. 자연과 어우러진 미니멀한 공간에서 온전한 휴식을 경험하세요.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
