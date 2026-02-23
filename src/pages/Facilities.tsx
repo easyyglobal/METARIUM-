@@ -67,7 +67,7 @@ export default function Facilities() {
             </motion.div>
           ))}
         </div>
-<!--
+
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -91,7 +91,7 @@ export default function Facilities() {
               </div>
             ))}
           </div>
-        </motion.div>-->
+        </motion.div>
       </div>
     </div>
   );
