@@ -6,7 +6,7 @@ const facilities = [
     title: 'Infinity Pool',
     desc: '제주의 푸른 바다와 하늘이 만나는 인피니티 풀에서 시원한 휴식을 즐겨보세요.',
     time: '09:00 - 21:00',
-    img: IMAGES.FACILITY_POOL
+    img: IMAGES.Oceanview
   },
   {
     title: 'Private BBQ',
@@ -67,7 +67,7 @@ export default function Facilities() {
             </motion.div>
           ))}
         </div>
-
+<!--
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -91,7 +91,7 @@ export default function Facilities() {
               </div>
             ))}
           </div>
-        </motion.div>
+        </motion.div>-->
       </div>
     </div>
   );

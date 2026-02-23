@@ -5,15 +5,19 @@
 export const IMAGES = {
   // 메인 히어로 배경
   HERO_BG: "/images/hero_bg.jpg",
+
+  // 수동 수정 배경
   
   // 객실 이미지
   ROOM_TYPE_A_1: "/images/room_a_1.jpg",
   ROOM_TYPE_A_2: "/images/room_a_2.jpg",
+  ROOM_TYPE_B_0: "/images/room_b_0.jpg",
   ROOM_TYPE_B_1: "/images/room_b_1.jpg",
   ROOM_TYPE_B_2: "/images/room_b_2.jpg",
   
   // 부대시설 이미지
   FACILITY_POOL: "/images/facility_pool.jpg",
+  Oceanview: "/images/Oceanview.jpg",
   FACILITY_BBQ: "/images/facility_bbq.jpg",
   FACILITY_GARDEN: "/images/facility_garden.jpg",
   
