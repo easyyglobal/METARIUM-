@@ -36,7 +36,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 1 }}
-            className="text-white text-4xl md:text-8xl font-bold tracking-tighter mb-12 text-balance"
+            className="text-white text-4xl md:text-8xl font-bold tracking-wider mb-12 text-balance"
           >
             일상 그 너머의,<br /> 메타리움 제주
           </motion.h1>
@@ -173,7 +173,7 @@ export default function Home() {
               transition={{ duration: 1 }}
             >
               <span className="text-accent text-xs font-bold tracking-[0.4em] uppercase block mb-6">Experience</span>
-              <h2 className="text-3xl md:text-7xl font-bold tracking-tighter leading-none mb-8">
+              <h2 className="text-3xl md:text-7xl font-bold tracking-normal leading-tight mb-8">
                 머무름 그 이상의<br />특별한 경험
               </h2>
               <p className="text-lg text-white/60 font-light leading-relaxed">

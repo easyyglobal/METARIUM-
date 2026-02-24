@@ -15,7 +15,7 @@ export default function Reservation() {
           <h1 className="text-5xl md:text-7xl font-bold tracking-tighter">Reservation</h1>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-20">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
@@ -45,7 +45,7 @@ export default function Reservation() {
               </div>
             </a>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 md:gap-6">
               <div className="p-8 bg-secondary rounded-3xl space-y-4" >
                 <Instagram size={24} className="text-accent" />
                 <h4 className="text-xl font-bold">Instagram</h4>
@@ -88,7 +88,7 @@ export default function Reservation() {
               ))}
             </div>
 
-            <div className="mt-8 md:mt-16 md:pt-10 border-t border-primary/10" >
+            <div className="mt-8 md:mt-16 py-5 border-t border-primary/10" >
               <div className="flex items-center space-x-4">
                 <div className="w-12 md:w-12 h-12 bg-green-500/10 text-green-600 rounded-full flex items-center justify-center">
                   <MessageCircle size={24} />

@@ -87,8 +87,8 @@ export default function Rooms() {
                 className={idx % 2 === 0 ? 'lg:order-2' : 'lg:order-1'}
               >
                 <div className="space-y-6 md:space-y-10">
-                  <h2 className="text-4xl font-bold tracking-tight">{room.name}</h2>
-                  <p className="text-lg text-primary/60 font-light md:leading-relaxed">
+                  <h2 className="text-3xl md:text-4xl font-bold tracking-tight">{room.name}</h2>
+                  <p className="md:text-lg text-primary/60 font-light md:leading-relaxed">
                     {room.desc}
                   </p>
                   
@@ -104,8 +104,8 @@ export default function Rooms() {
                   </div>
 
                   <div>
-                    <h4 className="text-xs font-bold tracking-widest text-accent uppercase mb-6">Amenities</h4>
-                    <ul className="grid grid-cols-2 gap-y-3 gap-x-4">
+                    <h4 className="text-xs font-bold tracking-widest text-accent uppercase mb-4 md:mb-6">Amenities</h4>
+                    <ul className="grid grid-cols-2 gap-y-3 gap-x-4 mb-12">
                       {room.amenities.map((item) => (
                         <li key={item} className="text-sm text-primary/70 flex items-center space-x-2">
                           <span className="w-1 h-1 bg-accent rounded-full" />
