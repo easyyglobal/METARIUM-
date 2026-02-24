@@ -19,8 +19,8 @@ export default function Guide() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2 space-y-20">
             {/* Check-in/out */}
-            <section className="space-y-8">
-              <div className="flex items-center space-x-4">
+            <section className="space-y-4 md:space-y-8">
+              <div className="flex items-center space-x-3 md:space-x-4">
                 <div className="w-12 h-12 bg-primary text-white rounded-2xl flex items-center justify-center">
                   <Clock size={24} />
                 </div>
@@ -43,14 +43,14 @@ export default function Guide() {
             </section>
 
             {/* Rules */}
-            <section className="space-y-8">
+            <section className="space-y-4 md:space-y-8">
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-primary text-white rounded-2xl flex items-center justify-center">
                   <Users size={24} />
                 </div>
                 <h2 className="text-2xl font-bold">이용 규정 및 주의사항</h2>
               </div>
-              <div className="space-y-6 p-10 bg-white rounded-3xl shadow-sm border border-primary/5">
+              <div className="space-y-6 p-8 md:p-10 bg-white rounded-3xl shadow-sm border border-primary/5">
                 {[
                   { title: '인원 규정', content: '최대 인원 초과 시 입실이 제한될 수 있습니다. (영유아 포함)' },
                   { title: '금연 안내', content: '전 객실 및 리조트 내 모든 구역은 금연 구역입니다.' },
@@ -66,7 +66,7 @@ export default function Guide() {
             </section>
 
             {/* Location */}
-            <section className="space-y-8">
+            <section className="space-y-4 md:space-y-8">
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-primary text-white rounded-2xl flex items-center justify-center">
                   <MapPin size={24} />
@@ -86,11 +86,11 @@ export default function Guide() {
                   </div>
                 </div>
               </div>
-              <div className="p-8 bg-secondary rounded-2xl space-y-4">
+              <div className="px-4 md:p-8 bg-secondary rounded-2xl space-y-4">
                 <p className="text-sm font-bold">주소: 제주 서귀포시 중산간서로157번길 74</p>
                 <div className="space-y-2">
-                  <p className="text-xs text-primary/50">버스 이용 시: 201번 버스 탑승 후 '메타리움 앞' 정류장 하차</p>
-                  <p className="text-xs text-primary/50">택시 이용 시: 제주공항에서 약 50분 소요 (예상 요금 35,000원)</p>
+                  <p className="text-xs text-primary/50">제주월드컵 경기장에서 약 6분 소요</p>
+                  <p className="text-xs text-primary/50">천지연폭포에서 약 17분 소요</p>
                 </div>
               </div>
             </section>

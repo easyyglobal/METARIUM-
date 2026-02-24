@@ -133,7 +133,7 @@ export default function Layout({ children }: LayoutProps) {
 
       <footer className="bg-primary text-secondary py-20 px-6 md:px-12">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
-          <div className="space-y-6">
+          <div className="space-y-3 md:space-y-6">
             <h2 className="text-3xl font-bold tracking-tighter">METARIUM</h2>
             <p className="text-sm opacity-60 leading-relaxed max-w-xs">
               일상 그 너머의 스테이, 메타리움 제주.<br />
@@ -146,9 +146,9 @@ export default function Layout({ children }: LayoutProps) {
             </div>
           </div>
 
-          <div className="space-y-4">
+          <div className="space-y-2 md:space-y-4">
             <h3 className="text-xs font-bold tracking-widest opacity-40 uppercase">Contact</h3>
-            <p className="text-sm">제주특별자치도 서귀포시 어느 길 123</p>
+            <p className="text-sm">제주 서귀포시 중산간서로157번길 74</p>
             <p className="text-sm">T. 010-9905-8064</p>
             <p className="text-sm">E. info@metarium.com</p>
           </div>

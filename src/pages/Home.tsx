@@ -36,9 +36,9 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 1 }}
-            className="text-white text-5xl md:text-8xl font-bold tracking-tighter mb-12 text-balance"
+            className="text-white text-4xl md:text-8xl font-bold tracking-tighter mb-12 text-balance"
           >
-            일상 그 너머의 스테이,<br /> 메타리움 제주
+            일상 그 너머의,<br /> 메타리움 제주
           </motion.h1>
           <motion.div
             initial={{ opacity: 0 }}
@@ -76,7 +76,7 @@ export default function Home() {
 
       {/* Intro Section */}
       <section className="py-32 px-6 md:px-12 bg-secondary">
-        <div className="max-w-4xl mx-auto text-center space-y-12">
+        <div className="max-w-4xl mx-auto text-center space-y-6 md:space-y-12">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -97,17 +97,17 @@ export default function Home() {
           >
             아침에는 빛과 함께 바다가 들어오고 낮에는 제주의 색이 공간에 머물며 
             해 질 무렵에는 노을이 하루의 끝을 알려줍니다. 
-            단순한 숙박이 아니라 머무는 시간 자체가 하나의 경험이 되는 것을 느껴보세요.
+            단순한 숙박이 아닌 머무는 시간 자체가 하나의 경험이 되는 것을 느껴보세요.
 
           </motion.p>
         </div>
       </section>
 
       {/* Rooms Preview */}
-      <section className="py-32 bg-white">
+      <section className="py-20 md:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
-            <div className="space-y-4">
+            <div className="space-y-2 md:space-y-4">
               <span className="text-accent text-xs font-bold tracking-[0.4em] uppercase block">Our Spaces</span>
               <h2 className="text-4xl md:text-6xl font-bold tracking-tighter">Rooms</h2>
             </div>
@@ -119,12 +119,12 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {[
               {
-                title: "Type A - Minimal Suite",
+                title: "Type A - Ocean Serenity",
                 desc: "휴식이 필요하다면, 프라이빗한 오션뷰 스위트 룸",
                 img: IMAGES.ROOM_TYPE_A_1
               },
               {
-                title: "Type B - Nature View",
+                title: "Type B - Private Ocean",
                 desc: "제주의 바다를 온전히 담아낸 프라이빗 룸",
                 img: IMAGES.ROOM_TYPE_B_1
               }
@@ -173,12 +173,12 @@ export default function Home() {
               transition={{ duration: 1 }}
             >
               <span className="text-accent text-xs font-bold tracking-[0.4em] uppercase block mb-6">Experience</span>
-              <h2 className="text-4xl md:text-7xl font-bold tracking-tighter leading-none mb-8">
+              <h2 className="text-3xl md:text-7xl font-bold tracking-tighter leading-none mb-8">
                 머무름 그 이상의<br />특별한 경험
               </h2>
               <p className="text-lg text-white/60 font-light leading-relaxed">
-                하늘과 바다가 맞닿은 인피니티 풀, 제주의 밤을 수놓는 프라이빗 BBQ,<br />
-                그리고 고요한 숲길 산책로까지. 메타리움이 제안하는 감각적인 휴식을 경험해 보세요.
+                제주의 신선함을 담은 아침 식탁과 바다를 품은 오후의 카페, <br className="hidden md:block"/>
+                그리고 우리만의 프라이빗한 바베큐 파티까지. 메타리움에서 완벽한 하루를 완성해 보세요.
               </p>
             </motion.div>
 
@@ -190,12 +190,12 @@ export default function Home() {
               className="grid grid-cols-2 gap-8"
             >
               <div>
-                <h4 className="text-xl font-bold mb-2">Infinity Pool</h4>
-                <p className="text-sm text-white/40">바다와 하나가 되는 시간</p>
+                <h4 className="text-xl font-bold mb-1 md:mb-2">Morning Table</h4>
+                <p className="text-sm text-white/40">에너지를 채우는 아침</p>
               </div>
               <div>
-                <h4 className="text-xl font-bold mb-2">Private BBQ</h4>
-                <p className="text-sm text-white/40">우리만의 특별한 저녁</p>
+                <h4 className="text-xl font-bold mb-1 md:mb-2">Private BBQ</h4>
+                <p className="text-sm text-white/40">우리만의 프라이빗한 저녁</p>
               </div>
             </motion.div>
 
@@ -231,9 +231,9 @@ export default function Home() {
               </div>
             </motion.div>
 
-            <div className="space-y-8">
+            <div className="space-y-6 md:space-y-8">
               <span className="text-accent text-xs font-bold tracking-[0.4em] uppercase block">Location</span>
-              <h2 className="text-4xl md:text-5xl font-bold tracking-tighter">오시는 길</h2>
+              <h2 className="text-3xl md:text-5xl font-bold tracking-tighter">오시는 길</h2>
               <div className="space-y-4 text-primary/70">
                 <p className="text-lg font-medium text-primary">제주 서귀포시 중산간서로157번길 74</p>
                 <p className="text-sm leading-relaxed">
@@ -259,7 +259,7 @@ export default function Home() {
           transition={{ duration: 1 }}
           className="max-w-3xl mx-auto px-6"
         >
-          <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-12">
+          <h2 className="text-3xl md:text-6xl font-bold tracking-tighter mb-12">
             당신에게 기억되는 제주가<br />완벽하길 바랍니다
           </h2>
           <a

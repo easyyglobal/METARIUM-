@@ -36,9 +36,9 @@ export default function Rooms() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="mb-20"
+          className="mb-10 md:mb-20"
         >
-          <span className="text-accent text-xs font-bold tracking-[0.4em] uppercase block mb-4">Our Spaces</span>
+          <span className="text-accent text-xs font-bold tracking-[0.4em] uppercase block mb-2 md:mb-4">Our Spaces</span>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tighter">Rooms</h1>
         </motion.div>
 
@@ -86,9 +86,9 @@ export default function Rooms() {
                 transition={{ delay: 0.3, duration: 1 }}
                 className={idx % 2 === 0 ? 'lg:order-2' : 'lg:order-1'}
               >
-                <div className="space-y-10">
+                <div className="space-y-6 md:space-y-10">
                   <h2 className="text-4xl font-bold tracking-tight">{room.name}</h2>
-                  <p className="text-lg text-primary/60 font-light leading-relaxed">
+                  <p className="text-lg text-primary/60 font-light md:leading-relaxed">
                     {room.desc}
                   </p>
                   
