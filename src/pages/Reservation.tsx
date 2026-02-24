@@ -88,9 +88,9 @@ export default function Reservation() {
               ))}
             </div>
 
-            <div className="mt-8 md:mt-16 md:pt-10 border-t border-primary/10" style="padding-top: calc(var(--spacing) * 8);">
+            <div className="mt-8 md:mt-16 md:pt-10 border-t border-primary/10" >
               <div className="flex items-center space-x-4">
-                <div className="w-10 md:w-12 h-10 md:h-12 bg-green-500/10 text-green-600 rounded-full flex items-center justify-center">
+                <div className="w-12 md:w-12 h-12 bg-green-500/10 text-green-600 rounded-full flex items-center justify-center">
                   <MessageCircle size={24} />
                 </div>
                 <div>
