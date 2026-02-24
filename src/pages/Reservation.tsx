@@ -89,7 +89,7 @@ export default function Reservation() {
             </div>
 
             <div className="mt-8 md:mt-16 py-5 border-t border-primary/10" >
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-2 md:space-x-4">
                 <div className="w-12 md:w-12 h-12 bg-green-500/10 text-green-600 rounded-full flex items-center justify-center">
                   <MessageCircle size={24} />
                 </div>

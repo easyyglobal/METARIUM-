@@ -86,8 +86,8 @@ export default function Guide() {
                   </div>
                 </div>
               </div>
-              <div className="px-4 md:p-8 bg-secondary rounded-2xl space-y-4">
-                <p className="text-sm font-bold">주소: 제주 서귀포시 중산간서로157번길 74</p>
+              <div className="px-4 bg-secondary rounded-2xl space-y-4">
+                <p className="text-sm md:text-lg font-bold">주소: 제주 서귀포시 중산간서로157번길 74</p>
                 <div className="space-y-2">
                   <p className="text-xs text-primary/50">제주월드컵 경기장에서 약 6분 소요</p>
                   <p className="text-xs text-primary/50">천지연폭포에서 약 17분 소요</p>
