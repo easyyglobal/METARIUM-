@@ -46,13 +46,13 @@ export default function Reservation() {
             </a>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="p-8 bg-secondary rounded-3xl space-y-4" style="padding: calc(var(--spacing) * 5);">
+              <div className="p-8 bg-secondary rounded-3xl space-y-4" >
                 <Instagram size={24} className="text-accent" />
                 <h4 className="text-xl font-bold">Instagram</h4>
                 <p className="text-sm text-primary/50">@metarium_jeju</p>
                 <a href="#" className="text-xs font-bold tracking-widest border-b border-primary pb-1">FOLLOW US</a>
               </div>
-              <div className="p-8 bg-secondary rounded-3xl space-y-4" style="padding: calc(var(--spacing) * 5);">
+              <div className="p-8 bg-secondary rounded-3xl space-y-4">
                 <Mail size={24} className="text-accent" />
                 <h4 className="text-xl font-bold">Email</h4>
                 <p className="text-sm text-primary/50">info@metarium.com</p>
