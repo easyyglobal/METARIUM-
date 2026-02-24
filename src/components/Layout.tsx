@@ -4,6 +4,7 @@ import { motion } from 'motion/react';
 import { Menu, X, Instagram } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { cn } from '@/src/lib/utils';
+import ScrollTopButton from './ScrollTopButton';
 
 interface LayoutProps {
   children: ReactNode;
@@ -127,13 +128,15 @@ export default function Layout({ children }: LayoutProps) {
       <main className="flex-grow">
         {children}
       </main>
+  
+  <ScrollTopButton />
 
       <footer className="bg-primary text-secondary py-20 px-6 md:px-12">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
           <div className="space-y-6">
             <h2 className="text-3xl font-bold tracking-tighter">METARIUM</h2>
             <p className="text-sm opacity-60 leading-relaxed max-w-xs">
-              제주의 바람과 돌, 그리고 메타리움.<br />
+              일상 그 너머의 스테이, 메타리움 제주.<br />
               자연 속에 스며드는 온전한 휴식을 선사합니다.
             </p>
             <div className="flex space-x-4">
@@ -146,15 +149,15 @@ export default function Layout({ children }: LayoutProps) {
           <div className="space-y-4">
             <h3 className="text-xs font-bold tracking-widest opacity-40 uppercase">Contact</h3>
             <p className="text-sm">제주특별자치도 서귀포시 어느 길 123</p>
-            <p className="text-sm">T. 064-123-4567</p>
+            <p className="text-sm">T. 010-9905-8064</p>
             <p className="text-sm">E. info@metarium.com</p>
           </div>
 
           <div className="space-y-4">
             <h3 className="text-xs font-bold tracking-widest opacity-40 uppercase">Information</h3>
             <p className="text-sm">사업자등록번호: 123-45-67890</p>
-            <p className="text-sm">대표: 홍길동</p>
-            <p className="text-sm opacity-40 mt-8">© 2024 METARIUM JEJU. All rights reserved.</p>
+            <p className="text-sm">대표: 홍길홍</p>
+            <p className="text-sm opacity-40 mt-8">© 2026 METARIUM JEJU. All rights reserved.</p>
           </div>
         </div>
       </footer>

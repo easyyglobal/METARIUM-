@@ -108,7 +108,7 @@ export default function Guide() {
               <div className="space-y-4">
                 <div>
                   <p className="text-[10px] font-bold tracking-widest text-white/40 uppercase mb-1">Customer Center</p>
-                  <p className="text-2xl font-bold">064-123-4567</p>
+                  <p className="text-2xl font-bold">010-9905-8064</p>
                 </div>
                 <div>
                   <p className="text-[10px] font-bold tracking-widest text-white/40 uppercase mb-1">Email</p>

@@ -7,7 +7,8 @@ export const IMAGES = {
   HERO_BG: "/images/hero_bg.jpg",
 
   // 수동 수정 배경
-  
+  venue_bg: "/images/venue_bg.jpg",
+  cafe: "/images/cafe.jpg",
   // 객실 이미지
   ROOM_TYPE_A_1: "/images/room_a_1.jpg",
   ROOM_TYPE_A_2: "/images/room_a_2.jpg",

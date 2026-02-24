@@ -4,11 +4,11 @@ import { IMAGES } from '@/src/constants/images';
 const rooms = [
   {
     id: 'type-a',
-    name: 'Type A - Minimal Suite',
-    desc: '여백의 미를 극대화한 미니멀한 스위트 룸입니다. 통창을 통해 들어오는 제주의 햇살과 함께 평온한 아침을 맞이하세요.',
+    name: 'Type A - Ocean Serenity ',
+    desc: '서귀포의 푸른 바다를 마주하며 깊은 잠에 드는 시간. 최고급 침구류와 독립된 싱글 베드로 편안하면서도 프라이빗한 휴식을 제공합니다.',
     size: '45㎡ / 13.6평',
-    capacity: '기준 2인 / 최대 3인',
-    amenities: ['King Size Bed', 'Private Terrace', 'Mini Bar', 'Premium Amenities', 'Free Wi-Fi'],
+    capacity: '기준 2인',
+    amenities: ['Premium Single Bed (2ea)', 'Ocean View Terrace', 'Bathtub & Luxury Amenities', 'Free Wi-Fi'],
     images: [
       IMAGES.ROOM_TYPE_A_1,
       IMAGES.ROOM_TYPE_A_2
@@ -16,11 +16,11 @@ const rooms = [
   },
   {
     id: 'type-b',
-    name: 'Type B - Nature View',
-    desc: '제주의 숲을 온전히 담아낸 프라이빗 룸입니다. 자연의 소리에 귀 기울이며 진정한 휴식을 경험할 수 있는 공간입니다.',
+    name: 'Type B - Private Ocean',
+    desc: '문을 열면 펼쳐지는 서귀포의 푸른 수평선. 준비된 테라스에서 바다를 마주하며 프라이빗 바베큐를 즐기세요.',
     size: '52㎡ / 15.7평',
-    capacity: '기준 2인 / 최대 4인',
-    amenities: ['King Size Bed', 'Forest View Terrace', 'Bathtub', 'Kitchenette', 'Free Wi-Fi'],
+    capacity: '기준 2인',
+    amenities: ['Premium Single Bed (2ea)', 'Private BBQ Terrace', 'Panoramic Ocean View', 'Free Wi-Fi'],
     images: [
       IMAGES.ROOM_TYPE_B_1,
       IMAGES.ROOM_TYPE_B_2

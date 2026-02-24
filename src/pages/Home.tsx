@@ -38,7 +38,7 @@ export default function Home() {
             transition={{ delay: 0.8, duration: 1 }}
             className="text-white text-5xl md:text-8xl font-bold tracking-tighter mb-12 text-balance"
           >
-            제주의 바람과 돌,<br />그리고 메타리움
+            일상 그 너머의 스테이,<br /> 메타리움 제주
           </motion.h1>
           <motion.div
             initial={{ opacity: 0 }}
@@ -125,7 +125,7 @@ export default function Home() {
               },
               {
                 title: "Type B - Nature View",
-                desc: "제주의 바다을 온전히 담아낸 프라이빗 룸",
+                desc: "제주의 바다를 온전히 담아낸 프라이빗 룸",
                 img: IMAGES.ROOM_TYPE_B_1
               }
             ].map((room, idx) => (
@@ -215,7 +215,7 @@ export default function Home() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 1 }}
-              className="aspect-video bg-white rounded-3xl overflow-hidden shadow-2xl"
+              className="relative aspect-video bg-white rounded-3xl overflow-hidden shadow-2xl"
             >
               {/* Placeholder for Map */}
               <img
@@ -260,7 +260,7 @@ export default function Home() {
           className="max-w-3xl mx-auto px-6"
         >
           <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-12">
-            당신의 가장 완벽한<br />제주를 예약하세요
+            당신에게 기억되는 제주가<br />완벽하길 바랍니다
           </h2>
           <a
             href="https://booking.naver.com"
