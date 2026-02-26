@@ -152,13 +152,11 @@ export default function Layout({ children }: LayoutProps) {
             <p className="text-sm">T. 010-9905-8064</p>
             <p className="text-sm">E. info@metarium.com</p>
           </div>
-<!--
-          <div className="space-y-4">
-            <h3 className="text-xs font-bold tracking-widest opacity-40 uppercase">Information</h3>
-            <p className="text-sm">사업자등록번호: 123-45-67890</p>
-            <p className="text-sm">대표: 홍길홍</p>
-            <p className="text-sm opacity-40 mt-8">© 2026 METARIUM JEJU. All rights reserved.</p>
-          </div>-->
+
+          
+
+
+          
         </div>
       </footer>
     </div>
