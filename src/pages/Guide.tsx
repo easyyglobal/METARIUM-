@@ -91,6 +91,7 @@ export default function Guide() {
                 <div className="space-y-2">
                   <p className="text-xs text-primary/50">제주월드컵 경기장에서 약 6분 소요</p>
                   <p className="text-xs text-primary/50">천지연폭포에서 약 17분 소요</p>
+                  <p className="text-xs text-primary/50">이마트 서귀포점에서 약 5분 소요</p>
                 </div>
               </div>
             </section>
