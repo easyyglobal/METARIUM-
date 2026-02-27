@@ -72,7 +72,7 @@ export default function Layout({ children }: LayoutProps) {
               </Link>
             ))}
             <a
-              href="https://booking.naver.com"
+              href="https://pcmap.place.naver.com/accommodation/1955868452/room?entry=ple&businessCategory=pension"
               target="_blank"
               rel="noopener noreferrer"
               className={cn(
@@ -116,7 +116,7 @@ export default function Layout({ children }: LayoutProps) {
           </Link>
         ))}
         <a
-          href="https://booking.naver.com"
+          href="https://pcmap.place.naver.com/accommodation/1955868452/room?entry=ple&businessCategory=pension"
           target="_blank"
           rel="noopener noreferrer"
           className="px-10 py-4 bg-primary text-white text-sm font-bold tracking-widest rounded-full"
@@ -156,7 +156,7 @@ export default function Layout({ children }: LayoutProps) {
           
 
 
-          
+
         </div>
       </footer>
     </div>

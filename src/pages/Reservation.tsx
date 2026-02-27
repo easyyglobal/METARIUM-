@@ -31,7 +31,7 @@ export default function Reservation() {
             </div>
 
             <a
-              href="https://booking.naver.com"
+              href="https://pcmap.place.naver.com/accommodation/1955868452/room?entry=ple&businessCategory=pension"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-6 p-8 md:p-12 bg-white rounded-[2rem] shadow-xl border border-primary/5 group hover:bg-primary hover:text-white transition-all duration-500 w-full"

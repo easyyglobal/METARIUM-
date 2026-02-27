@@ -46,7 +46,7 @@ export default function Home() {
             transition={{ delay: 1.5, duration: 1 }}
           >
             <a
-              href="https://booking.naver.com"
+              href="https://pcmap.place.naver.com/accommodation/1955868452/room?entry=ple&businessCategory=pension"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-4 px-10 py-5 bg-white text-primary rounded-full text-sm font-bold tracking-widest hover:bg-secondary transition-all group"
@@ -263,7 +263,7 @@ export default function Home() {
             당신에게 기억되는 제주가<br />완벽하길 바랍니다
           </h2>
           <a
-            href="https://booking.naver.com"
+            href="https://pcmap.place.naver.com/accommodation/1955868452/room?entry=ple&businessCategory=pension"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-4 px-12 py-6 bg-primary text-white rounded-full text-sm font-bold tracking-widest hover:bg-accent transition-all shadow-xl"

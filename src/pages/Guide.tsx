@@ -117,7 +117,7 @@ export default function Guide() {
                 </div>
               </div>
               <a
-                href="https://booking.naver.com"
+                href="https://pcmap.place.naver.com/accommodation/1955868452/room?entry=ple&businessCategory=pension"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-10 w-full py-4 bg-white text-primary text-xs font-bold tracking-widest rounded-full flex items-center justify-center hover:bg-secondary transition-all"

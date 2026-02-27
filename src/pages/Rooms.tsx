@@ -116,7 +116,7 @@ export default function Rooms() {
                   </div>
 
                   <a
-                    href="https://booking.naver.com"
+                    href="https://pcmap.place.naver.com/accommodation/1955868452/room?entry=ple&businessCategory=pension"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block px-10 py-4 bg-primary text-white text-xs font-bold tracking-widest rounded-full hover:bg-accent transition-all"
