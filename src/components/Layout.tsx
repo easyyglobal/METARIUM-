@@ -72,7 +72,7 @@ export default function Layout({ children }: LayoutProps) {
               </Link>
             ))}
             <a
-              href="https://pcmap.place.naver.com/accommodation/1955868452/room?entry=ple&businessCategory=pension"
+              href="https://map.naver.com/p/search/%EB%A9%94%ED%83%80%EB%A6%AC%EC%9B%80/place/1955868452?placePath=/room?entry=ple&businessCategory=pension&businessCategory=pension&bk_query=%EB%A9%94%ED%83%80%EB%A6%AC%EC%9B%80&entry=pll&fromNxList=true&fromPanelNum=2&locale=ko&searchText=%EB%A9%94%ED%83%80%EB%A6%AC%EC%9B%80&svcName=map_pcv5&timestamp=202602271053&from=map&searchType=place&c=15.00,0,0,0,dh"
               target="_blank"
               rel="noopener noreferrer"
               className={cn(
