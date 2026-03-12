@@ -74,7 +74,7 @@ export default function Guide() {
                 <h2 className="text-2xl font-bold">오시는 길</h2>
               </div>
               <div className="aspect-video bg-white rounded-3xl overflow-hidden border border-primary/5 relative">
-                <a href="https://naver.me/xrS5tEI5">
+                <a href="https://naver.me/xrS5tEI5" target="_blank">
                   <img
                     src={IMAGES.MAP_PLACEHOLDER}
                     alt="Map"
