@@ -74,17 +74,19 @@ export default function Guide() {
                 <h2 className="text-2xl font-bold">오시는 길</h2>
               </div>
               <div className="aspect-video bg-white rounded-3xl overflow-hidden border border-primary/5 relative">
-                <img
-                  src={IMAGES.MAP_PLACEHOLDER}
-                  alt="Map"
-                  className="w-full h-full object-cover grayscale opacity-50"
-                  referrerPolicy="no-referrer"
-                />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="bg-primary text-white px-8 py-4 rounded-full text-sm font-bold tracking-widest shadow-2xl">
-                    METARIUM JEJU
+                <a href="https://naver.me/xrS5tEI5">
+                  <img
+                    src={IMAGES.MAP_PLACEHOLDER}
+                    alt="Map"
+                    className="w-full h-full object-cover grayscale opacity-50"
+                    referrerPolicy="no-referrer"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="bg-primary text-white px-8 py-4 rounded-full text-sm font-bold tracking-widest shadow-2xl">
+                      METARIUM JEJU
+                    </div>
                   </div>
-                </div>
+                </a>  
               </div>
               <div className="px-4 bg-secondary rounded-2xl space-y-4">
                 <p className="text-sm md:text-lg font-bold">주소: 제주 서귀포시 중산간서로157번길 74</p>
