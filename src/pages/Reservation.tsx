@@ -44,7 +44,7 @@ export default function Reservation() {
                 <ArrowRight size={24} />
               </div>
             </a>
-
+          {/*
             <div className="grid grid-cols-2 md:gap-6">
               <div className="p-8 bg-secondary rounded-3xl space-y-4" >
                 <Instagram size={24} className="text-accent" />
@@ -59,6 +59,7 @@ export default function Reservation() {
                 <a href="mailto:info@metarium.com" className="text-xs font-bold tracking-widest border-b border-primary pb-1">SEND EMAIL</a>
               </div>
             </div>
+            */}
           </motion.div>
 
           <motion.div
@@ -71,7 +72,7 @@ export default function Reservation() {
             <div className="space-y-6 md:space-y-8">
               {[
                 { q: '예약 취소 및 환불 규정은 어떻게 되나요?', a: '체크인 10일 전까지는 100% 환불이 가능하며, 이후 기간에 따라 차등 적용됩니다.' },
-                { q: '연박 할인이 있나요?', a: '2박 이상 예약 시 전체 금액의 10% 할인이 적용됩니다.' },
+                {/*{ q: '연박 할인이 있나요?', a: '2박 이상 예약 시 전체 금액의 10% 할인이 적용됩니다.' },*/}
                 { q: '바베큐 이용은 미리 예약해야 하나요?', a: '네, 원활한 준비를 위해 체크인 최소 1일 전까지 예약을 권장드립니다.' },
                 { q: '주차 공간은 충분한가요?', a: '객실당 1대의 전용 주차 공간이 마련되어 있습니다.' }
               ].map((faq, idx) => (

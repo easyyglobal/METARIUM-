@@ -139,18 +139,19 @@ export default function Layout({ children }: LayoutProps) {
               일상 그 너머의 스테이, 메타리움 제주.<br />
               자연 속에 스며드는 온전한 휴식을 선사합니다.
             </p>
+            {/*
             <div className="flex space-x-4">
               <a href="#" className="hover:text-accent transition-colors">
                 <Instagram size={20} />
               </a>
-            </div>
+            </div>*/}
           </div>
 
           <div className="space-y-2 md:space-y-4">
             <h3 className="text-xs font-bold tracking-widest opacity-40 uppercase">Contact</h3>
             <p className="text-sm">제주 서귀포시 중산간서로157번길 74</p>
             <p className="text-sm">T. 010-9905-8064</p>
-            <p className="text-sm">E. info@metarium.com</p>
+           {/* <p className="text-sm">E. info@metarium.com</p> */}
           </div>
 
           
