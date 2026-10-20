@@ -22,6 +22,52 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <div id="popup" class="popup-overlay" style="display:none;">
+  <div class="popup-box">
+    <img src="/images/popup.jpg" alt="팝업">
+    <div class="popup-bar">
+      <button onclick="hideToday()">오늘 하루 보지 않기</button>
+      <button onclick="closePopup()">닫기</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .popup-overlay {
+    position: fixed; inset: 0; background: rgba(0,0,0,.55);
+    display: flex; align-items: center; justify-content: center; z-index: 9999;
+  }
+  .popup-box {
+    width: min(90%, 420px); background: #fff;
+    border-radius: 12px; overflow: hidden;
+  }
+  .popup-box img { display: block; width: 100%; height: auto; }
+  .popup-bar { display: flex; background: #222; }
+  .popup-bar button {
+    flex: 1; padding: 12px; border: 0; background: none;
+    color: #fff; font-size: 14px; cursor: pointer;
+  }
+  .popup-bar button + button { border-left: 1px solid #444; }
+</style>
+
+<script>
+  const popup = document.getElementById('popup');
+  const KEY = 'popupHiddenUntil';
+
+  function closePopup() { popup.style.display = 'none'; }
+
+  function hideToday() {
+    const midnight = new Date();
+    midnight.setHours(24, 0, 0, 0);
+    localStorage.setItem(KEY, midnight.getTime());
+    closePopup();
+  }
+
+  window.addEventListener('load', () => {
+    const until = Number(localStorage.getItem(KEY) || 0);
+    if (Date.now() > until) popup.style.display = 'flex';
+  });
+</script>
   </body>
 </html>
 
